@@ -1,6 +1,6 @@
 path = require 'path'
 async = require 'async'
-slugify = require 'slugg'
+slugify = require 'slugify'
 
 replaceAll = (string, map) ->
   re = new RegExp Object.keys(map).join('|'), 'gi'
